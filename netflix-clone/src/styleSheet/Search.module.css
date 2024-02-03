@@ -1,0 +1,23 @@
+.textField {
+  border: 2px solid grey;
+  border-radius: 7px;
+  letter-spacing: 1px;
+  width: 400px;
+}
+.searchBtn {
+  background-color: red;
+  border: transparent;
+  border-radius: 7px;
+  padding: 10px 15px;
+  font-size: 25px;
+  margin-left: 15px;
+}
+@media (max-width: 650px) {
+  .textField {
+    margin-bottom: 15px;
+    width: 85%;
+  }
+  .details {
+    padding: 0 20px;
+  }
+}
